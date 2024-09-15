@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP_Practice___Polymorphism.Base
 {
-    internal interface ICalculations
+    public interface ICalculations
     {
         public decimal BonusCalculator();
     }

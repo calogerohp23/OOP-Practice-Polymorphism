@@ -10,6 +10,9 @@ namespace OOP_Practice___Polymorphism.Base
     {
         public string? FirstName { get; set; }
         public string? LastName { get; set; }
+        public decimal BaseSalary { get; set; }
+
         public abstract decimal SalaryCalculator();
+
     }
 }

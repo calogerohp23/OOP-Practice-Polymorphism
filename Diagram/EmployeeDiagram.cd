@@ -3,7 +3,7 @@
   <Class Name="OOP_Practice___Polymorphism.Base.Employee">
     <Position X="8.75" Y="0.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAEAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAABAAAAAAAAACAAAAAAAAAg=</HashCode>
       <FileName>Base\Employee.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -15,20 +15,20 @@
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Class Name="OOP_Practice___Polymorphism.Class.TeacherFixContract">
-    <Position X="11.5" Y="3.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAQAAAAAAAAA=</HashCode>
-      <FileName>Class\TeacherFixContract.cs</FileName>
-    </TypeIdentifier>
-    <Lollipop Position="0.2" />
-  </Class>
   <Class Name="OOP_Practice___Polymorphism.Class.TeacherPerHour">
     <Position X="8.75" Y="3.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAABAAAAAAAIAAAAAAAAAAAA=</HashCode>
       <FileName>Class\TeacherPerHour.cs</FileName>
     </TypeIdentifier>
+  </Class>
+  <Class Name="OOP_Practice___Polymorphism.Class.TeacherFixContract">
+    <Position X="11.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAABAAggAAAAAAQAAAAAAAAE=</HashCode>
+      <FileName>Class\TeacherFixContract.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Interface Name="OOP_Practice___Polymorphism.Base.ICalculations">
     <Position X="4.75" Y="1.25" Width="1.5" />

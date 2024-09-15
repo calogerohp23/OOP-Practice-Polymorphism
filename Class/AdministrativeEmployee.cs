@@ -7,16 +7,27 @@ using System.Threading.Tasks;
 
 namespace OOP_Practice___Polymorphism.Class
 {
-    internal class AdministrativeEmployee : Employee, ICalculations
+    public class AdministrativeEmployee : Employee, ICalculations
     {
-        public decimal BonusCalculator()
-        {
-            throw new NotImplementedException();
-        }
+        public double Productivity {  get; set; }
 
         public override decimal SalaryCalculator()
         {
-            throw new NotImplementedException();
+            base.BaseSalary = 50000m;
+            return base.BaseSalary;
         }
+        public decimal BonusCalculator()
+        {
+            if(Productivity >= 80)
+            {
+                return base.BaseSalary;
+            }
+            else
+            {
+                return base.BaseSalary/2;
+            }
+        }
+
+
     }
 }

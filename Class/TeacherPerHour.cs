@@ -13,7 +13,10 @@ namespace OOP_Practice___Polymorphism.Class
         
         public override decimal SalaryCalculator()
         {
-            throw new NotImplementedException();
+            int hourValue = 800;
+            base.BaseSalary = hourValue * Hour;
+
+            return base.BaseSalary;
         }
     }
 }
